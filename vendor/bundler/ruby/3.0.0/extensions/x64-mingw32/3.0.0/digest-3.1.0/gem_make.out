@@ -1,0 +1,19 @@
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20220826-7068-rskgjh.rb extconf.rb
+checking for u_int8_t... no
+checking for sys/cdefs.h... yes
+creating Makefile
+
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= clean
+
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\=
+generating sha2-x64-mingw32.def
+compiling sha2init.c
+compiling sha2.c
+linking shared-object digest/sha2.so
+
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/digest-3.1.0/ext/digest/sha2
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 sha2.so ./.gem.20220826-7068-ixthmq/digest

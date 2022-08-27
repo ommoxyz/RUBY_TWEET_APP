@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# デバッグ用に追記
+gem 'ruby-debug-ide'
+gem 'debase'

@@ -1,0 +1,5 @@
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/ruby-debug-ide-0.7.3/ext
+C:/Ruby30-x64/bin/ruby.exe mkrf_conf.rb
+
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/ruby-debug-ide-0.7.3/ext
+C:/Ruby30-x64/bin/ruby.exe -IC:/Ruby30-x64/lib/ruby/3.0.0 -rrubygems C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/rake-13.0.6/exe/rake RUBYARCHDIR\=C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/extensions/x64-mingw32/3.0.0/ruby-debug-ide-0.7.3 RUBYLIBDIR\=C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/extensions/x64-mingw32/3.0.0/ruby-debug-ide-0.7.3

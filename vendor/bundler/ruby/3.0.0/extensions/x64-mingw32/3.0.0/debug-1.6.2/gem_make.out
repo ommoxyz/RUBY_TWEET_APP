@@ -1,0 +1,17 @@
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+C:/Ruby30-x64/bin/ruby.exe -I C:/Ruby30-x64/lib/ruby/3.0.0 -r ./siteconf20220826-7068-ta9nng.rb extconf.rb
+creating Makefile
+
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= clean
+
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\=
+generating debug-x64-mingw32.def
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: C:/Users/ommox/workspace/10_RUBY_TWEET_APP/tweet_app/vendor/bundler/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20220826-7068-jtsjee/debug

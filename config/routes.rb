@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
-  # ホーム
-  get "/" => "home#top"
-  get "about" => "home#about"
+  
+  get "/" => "home#top" # ホーム
+  get "about" => "home#about" # 説明
 
-  # 投稿画面
-  get "posts/index" => "posts#index"
+  get "posts/index" => "posts#index" # 投稿一覧
+  get "posts/new" => "posts#new" # 新規投稿
+  get "posts/:id" => "posts#show" # 投稿詳細
+  post "posts/create" => "posts#create" # 投稿登録
+
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
