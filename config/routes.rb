@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get "posts/:id/edit" => "posts#edit" # 投稿編集
   post "posts/create" => "posts#create" # 投稿登録
   post "posts/:id/update" => "posts#update" # 投稿編集
+  post "posts/:id/destroy" => "posts#destroy" # 投稿削除
 
 
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
