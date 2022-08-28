@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get "users/index" => "users#index" # ユーザ一覧
+  get "users/:id" => "users#show" # ユーザ詳細
+  get "/signup" => "users#new" # ユーザ登録情報入力
+  post "users/create" => "users#create" # ユーザ登録実行
   
   get "/" => "home#top" # ホーム
   get "about" => "home#about" # 説明

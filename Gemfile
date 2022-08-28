@@ -74,3 +74,6 @@ end
 # デバッグ用に追記
 gem 'ruby-debug-ide'
 gem 'debase'
+
+# 日本語化
+gem 'rails-i18n'
