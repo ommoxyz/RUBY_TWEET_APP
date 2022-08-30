@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get "login" => "users#login_form" # ログイン 表示
+  post "login" => "users#login" # ログイン 実行
+  post "logout" => "users#logout" # ログアウト 実行
+
   get "users/index" => "users#index" # ユーザ一覧 表示
   get "users/:id" => "users#show" # ユーザ詳細 表示
   get "signup" => "users#new" # ユーザ登録 表示
